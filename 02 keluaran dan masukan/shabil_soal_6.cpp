@@ -1,13 +1,9 @@
-#include <cmath>
-#include <cstudio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 int main()
 {
-    int a, B;
+    int A, B;
     cin >> A >> B;
     
     int pembagian = A / B;
@@ -15,9 +11,9 @@ int main()
     
     cout << " masing-masing " << pembagian <<
 endl;
-    cout << " bersisa " << sisa << endl;
+    cout << " bersisa " << sisa_bagi << endl;
     
     return 0;
-]
+}
     
     
